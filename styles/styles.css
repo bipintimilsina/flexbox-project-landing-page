@@ -1,1 +1,140 @@
 /*this is the styles page bro get over it */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: sans-serif;
+  /* background-color: #dfe2e6; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top-container {
+  height: 359px;
+  background-color: #1f2937;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 8px;
+}
+.nav ul {
+  display: flex;
+  gap: 18px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  height: 70%;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+.left-main {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.mid img {
+  width: 200px;
+  height: 200px;
+}
+.left-main .heading {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+a {
+  color: white;
+}
+
+.main img {
+  width: 200px;
+  height: 200px;
+}
+li > a {
+  background-color: #3882f6;
+
+  padding: 10px 29px;
+
+  font-size: 18px;
+  border-radius: 15px;
+}
+.left-main p:nth-child(2) {
+  padding: 5px;
+  margin-bottom: 8px;
+  font-family: sans-serif;
+  width: 70%;
+}
+
+.mid {
+  background-color: #f7f8f9;
+  height: 405px;
+}
+
+.mid :nth-child(1) {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  color: #1f2937;
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.mid .img-collection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* width: 100vw; */
+  gap:15px;
+  
+}
+div.img-single{
+
+border:5px solid #3882f6;
+flex-direction: column;
+height: max-content;
+width: max-content;
+display: flex;
+border-radius: 33px;
+
+}
+
+
+
+.quote {
+  height: 250px;
+  background-color: #e5e7eb;
+  display: flex;
+  padding: 90px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.quote q:nth-child(1) {
+    
+  font-size: 36px;
+  font-style: italic;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-weight: 10;
+  color:#1f2937
+}
+.quote li:nth-child(2) {
+  align-self: flex-end;
+  font-weight: 800;
+  margin-right: 30px;
+}
