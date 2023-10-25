@@ -8,8 +8,11 @@
   text-decoration: none;
   font-size: 18px;
   font-family: sans-serif;
+  font-weight: 100px;
   /* background-color: #dfe2e6; */
 }
+
+
 
 .container {
   display: flex;
@@ -133,8 +136,99 @@ border-radius: 33px;
   font-weight: 10;
   color:#1f2937
 }
-.quote li:nth-child(2) {
-  align-self: flex-end;
+.quote q:nth-child(2) {
+}
+.quote li{
   font-weight: 800;
   margin-right: 30px;
+  align-self: flex-end;
+}
+q::before,::after{
+  align-self: flex-start;
+/* justify-content: flex-start; */
+}
+.call-container{
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: red; */
+
+  padding: 80px;
+
+}
+
+.call-to-action{
+  display: flex;
+  justify-content: space-around;
+  padding: 11px;
+  height: 65;
+  /* align-items: center; */
+  background-color:#3882f6;
+  margin: 40px;
+  border-radius: 10px;
+  font-weight: 100;
+  /* box-sizing: border-box; */
+  
+}
+.call-to-action .left-call > li{
+  font-size: 18px;
+  font-weight: 100;
+  padding: 0;
+  color: white;
+
+  
+
+
+}
+.call-to-action .right-call >a{
+  font-size: 21px;
+  
+  color: white;
+  border: 2px solid #f7f8f9;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-weight: 600;
+  /* align-self: center; */
+  /* justify-content: center; */
+  
+
+
+  
+}
+.call-to-action .right-call{
+  align-self: center;
+}
+.left-call{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.left-call li:nth-child(1)
+{
+  align-self: flex-start;
+  /* box-sizing: border-box; */
+  /* font-weight: 400; */
+  color: white;
+  font-size: 23px;
+
+}
+.call-container .call-to-action li:nth-child(1){
+
+  font-weight: 600;
+}
+
+
+
+.right-call{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer
+{
+  background-color: red;
 }
