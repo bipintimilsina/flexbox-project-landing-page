@@ -98,11 +98,13 @@ li > a {
 
 .mid {
   background-color: #f7f8f9;
-  height:410px;
+  flex-basis:410px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
+
 }
 
 .mid p:nth-child(1) {
