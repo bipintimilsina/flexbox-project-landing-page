@@ -257,5 +257,12 @@ q::before,::after{
 
 footer
 {
-  background-color: red;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #e5e7eb;
+  height: 100px;
+  
+  align-items: center;
 }
