@@ -20,9 +20,13 @@
   justify-content: space-between;
 }
 .top-container {
-  height: 359px;
+  flex-basis: 359px;
   background-color: #1f2937;
   color: white;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .nav {
@@ -30,16 +34,22 @@
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 8px;
+  flex-wrap: wrap;
 }
 .nav ul {
   display: flex;
   gap: 18px;
+  flex-wrap: wrap;
 }
 .left-main {
   padding: 80px;
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+.main img{
+flex-shrink:10 ;
+
 }
 
 
@@ -50,7 +60,7 @@
   align-items: center;
   height: 70%;
   justify-content: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 
@@ -69,7 +79,7 @@
   height: 150px;
 }
 .left-main .heading {
-  font-size: 48px;
+  font-size: 2em;
   font-weight: 800;
 }
 
@@ -108,7 +118,7 @@ li > a {
 }
 
 .mid p:nth-child(1) {
-  font-size: 36px;
+  font-size: 1.5em;
   font-weight: 900;
   text-align: center;
   color: #1f2937;
@@ -149,17 +159,18 @@ padding: 10px;
 
 
 .quote {
-  height: 250px;
+  flex-basis: 250px;
   background-color: #e5e7eb;
   display: flex;
   padding: 90px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .quote q:nth-child(1) {
     
-  font-size: 36px;
+  font-size: 1.5em;
   font-style: italic;
   /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   font-weight: 10;
@@ -169,6 +180,7 @@ padding: 10px;
 }
 .quote li{
   font-weight: 800;
+  font-size: 0.8em;
   margin-right: 30px;
   align-self: flex-end;
 }
@@ -178,25 +190,27 @@ q::before,::after{
 }
 .call-container{
   display: flex;
-  height: 300px;
+  flex-direction: column;
+  flex-basis: 250px;
   justify-content: center;
   align-items: center;
+  
 
-  /* background-color: red; */
-
-  padding: 80px;
+  /* padding: 80px; */
 
 }
 
 .call-to-action{
   display: flex;
   justify-content: space-around;
-  padding: 30px 60px;
-  flex-basis: 700px;
-  /* align-items: center; */
+  padding: 20px 60px;
+ height: 70%;
+
+  width: 60vw;
   background-color:#3882f6;
   margin: 40px;
   border-radius: 10px;
+  flex-wrap: wrap;
   font-weight: 100;
   /* box-sizing: border-box; */
   
@@ -219,8 +233,7 @@ q::before,::after{
   border-radius: 10px;
   padding: 10px 30px;
   font-weight: 600;
-  /* align-self: center; */
-  /* justify-content: center; */
+
   
 
 
@@ -267,4 +280,5 @@ footer
   height: 100px;
   
   align-items: center;
+  flex-wrap: wrap;
 }
