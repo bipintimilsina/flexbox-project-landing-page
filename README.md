@@ -17,5 +17,8 @@
 - ofcourse its responsive
 - dont need to check
 - just take my words for it
+
+# Disclamer
+*All the images in the project were taken from [pexels](https://www.pexels.com/) website*
   
 
