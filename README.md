@@ -20,5 +20,10 @@
 
 # Disclamer
 *All the images in the project were taken from [pexels](https://www.pexels.com/) website*
+
+<br>
+
+
+  *I do not own any of these images myself*
   
 
