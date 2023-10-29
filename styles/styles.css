@@ -304,6 +304,9 @@ footer
   box-sizing: border-box;
 }
 
+.nav ul{
+  align-items: center;
+}
 .left-main p.heading{
 
   font-size: 1.5em;
@@ -323,8 +326,17 @@ footer
 .quote{
   padding: 20px;
   font-size: 1em;
+  flex-basis: 190px;
 
 }
+.img-container {
+padding-bottom: 10px;
+
+
+}
+
+
+
 .call-container{
 
 }
