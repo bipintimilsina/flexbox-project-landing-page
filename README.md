@@ -3,6 +3,12 @@
 - It only uses like 10 lines of media queries
 - Its quite responsive aye
 
+<br>
+
+
+  [click to view live](https://bipintimilsina.github.io/flexbox-project-landing-page/)
+
+
 ## to check its responsiveness follow these steps 
 -  well get to your browser chrome or whatever
 - inspect
